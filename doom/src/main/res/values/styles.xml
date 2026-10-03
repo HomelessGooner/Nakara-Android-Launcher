@@ -1,0 +1,6 @@
+<resources>
+
+    <!-- Dark Material 3 theme so View-based screens (GamePadFragment) match the Compose DoomTheme. -->
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar" />
+
+</resources>

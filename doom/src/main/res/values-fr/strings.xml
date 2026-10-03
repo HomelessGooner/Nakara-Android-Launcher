@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="file_permission_fail_toast">Oups ! Freedoom nécessite l\'autorisation d\'accès aux fichiers afin de copier les niveaux sur le stockage partagé. Veuillez relancer l\'application.</string>
+    <string name="gamepad_tab">manette</string>
+    <string name="options_tab">options</string>
+    <string name="no_iwads_err">Veuillez sélectionner un fichier IWAD. Copier les fichiers IWAD dans:</string>
+    <string name="ok_confirm">D\'accord</string>
+
+    <!-- gzdoom (freedoom) fragment-->
+    <string name="app_name">Nakara</string>
+    <string name="start_full">lancement</string>
+    <string name="start_wads">Addons</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">Activer le gamepad</string>
+    <string name="hide_touch_controls_toggle">Masquer les commandes tactiles</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">Regarde en haut / regarde en bas</string>
+    <string name="look_left_right_option">Regardez à gauche / Regardez à droite</string>
+    <string name="forward_back_option">Avant / arrière</string>
+    <string name="strafe_option">Déplacer à gauche / droite</string>
+    <string name="attack_option">Attaque</string>
+    <string name="attack_alt_option">Alt Attaque (GZ)</string>
+    <string name="move_back_option">Reculer</string>
+    <string name="crouch_option">Se pencher (GZ)</string>
+    <string name="custom_0_option">Personnalisé A (GZ)</string>
+    <string name="custom_1_option">Personnalisé B (GZ)</string>
+    <string name="custom_2_option">Personnalisé C (GZ)</string>
+    <string name="custom_3_option">Personnalisé D (GZ)</string>
+    <string name="custom_4_option">Personnalisé E (GZ)</string>
+    <string name="custom_5_option">Personnalisé F (GZ)</string>
+    <string name="fly_down_option">Atterrir</string>
+    <string name="fly_up_option">Voler</string>
+    <string name="fwd_option">Avance</string>
+    <string name="inv_drop_option">Lacher un objet</string>
+    <string name="inv_next_option">Prochain point</string>
+    <string name="inv_prev_option">Article précédent</string>
+    <string name="inv_use_option">Utiliser l\'article</string>
+    <string name="jump_option">Saut (GZ)</string>
+    <string name="left_option">déplacer gauche</string>
+    <string name="look_left_option">Regarde à gauche</string>
+    <string name="look_right_option">Regarder à droite</string>
+    <string name="map_down_option">carte bas</string>
+    <string name="map_left_option">carte Gauche</string>
+    <string name="map_right_option">carte droite</string>
+    <string name="map_show_option">Montrer carte</string>
+    <string name="map_up_option">carte en haut</string>
+    <string name="map_zoomin_option">carte agrandir</string>
+    <string name="map_zoomout_option">carte zoom arrière</string>
+    <string name="menu_back_option">Menu Retour</string>
+    <string name="menu_down_option">Menu bas</string>
+    <string name="menu_left_option">Menu gauche</string>
+    <string name="menu_right_option">Menu Droite</string>
+    <string name="menu_select_option">Sélection du menu</string>
+    <string name="menu_up_option">Menu en haut</string>
+    <string name="next_weapon_option">Prochaine arme</string>
+    <string name="prev_weapon_option">Arme précédente</string>
+    <string name="quick_load_option">restaurer rapide (GZ)</string>
+    <string name="quick_save_option">Sauvegarde rapide (GZ)</string>
+    <string name="right_option">déplacer vers la droite</string>
+    <string name="show_keys_option">Afficher les clés</string>
+    <string name="show_weap_option">Afficher les statistiques / armes</string>
+    <string name="speed_option">Courir activée</string>
+    <string name="strafe_on_option">aller à gauche / droite activée</string>
+    <string name="use_option">Utiliser / Ouvrir</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">Dossier Freedoom</string>
+    <string name="wad_dir_prompt">Répertoire de configuration et de contenu (WAD, DEH, etc.) dossier.</string>
+    <string name="divide_resolution_by_prompt">Diviser l\'écran par:</string>
+    <string name="reset_button_text">réinitialiser</string>
+    <string name="choose_button_text">choisir</string>
+
+    <string-array name="double_tap_actions">
+        <item>Aucun</item>
+        <item>Tirer</item>
+        <item>Saut</item>
+        <item>utiliser</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>Aucun</item>
+        <item>Tirer</item>
+        <item>Saut</item>
+        <item>utiliser</item>
+        <item>Utiliser la force</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>Grand</item>
+        <item>Moyen</item>
+        <item>Petit</item>
+    </string-array>
+</resources>

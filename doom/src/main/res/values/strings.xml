@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="dummy_string">REMOVEME ADDED TO KICK TRANSIFEX INTO PULLING ON COMMIT</string>
+    <string name="file_permission_fail_toast">Oops! Nakara needs file permissions to copy over levels to shared storage. Please re-launch app</string>
+    <string name="play_tab">PLAY</string>
+    <string name="settings_tab">Settings</string>
+    <string name="gamepad_tab">gamepad</string>
+    <string name="options_tab">options</string>
+    <string name="about_tab">about</string>
+    <string name="back">Back</string>
+    <string name="no_iwads_err">Please select an IWAD file. Copy IWAD files to: </string>
+    <string name="ok_confirm">OK</string>
+
+    <!-- gzdoom (freedoom) fragment -->
+    <string name="app_name">Nakara</string>
+    <string name="start_full">Launch</string>
+    <string name="start_wads">Addons</string>
+
+    <!-- Compose launcher UI (new keys, English only — translations come via Transifex) -->
+    <string name="select_game_header">Select game</string>
+    <string name="no_wads_found">No WADs found</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="open_options_button">Open options</string>
+    <string name="preparing_game_data">Preparing game data…</string>
+    <string name="nakara_checking_data">Checking game data…</string>
+    <string name="nakara_missing_title">Nakara game data needed</string>
+    <string name="nakara_missing_body">Nakara needs its game data file (Nk.ipk3, about 651 MB) before it can start. Pick the file wherever it lives on this device — Downloads, the Drive app, or USB storage — and it will be copied in and verified.</string>
+    <string name="nakara_find_file_button">Find Nk.ipk3 on this device</string>
+    <string name="nakara_drive_fallback_button">Download from Google Drive instead</string>
+    <string name="nakara_copying_title">Copying game data…</string>
+    <string name="nakara_copy_note">Copying the file you picked into the game folder, then verifying it. Keep the app open.</string>
+    <string name="nakara_downloading_title">Downloading Nakara</string>
+    <string name="nakara_download_note">First launch only — about 651 MB. Keep the app open and stay connected.</string>
+    <string name="nakara_download_failed_title">Download failed</string>
+    <string name="nakara_retry_button">Retry download</string>
+    <string name="nakara_sideload_hint">Already have Nk.ipk3? Put it in the game folder yourself (Options → Nakara Folder) or push it with adb — the app detects it automatically.</string>
+    <string name="launching_game">Preparing to launch…</string>
+    <string name="prepare_failed">Couldn\'t unpack game data: %1$s</string>
+    <string name="launch_failed">Couldn\'t prepare game files: %1$s</string>
+    <string name="addons_header">Add-ons</string>
+    <string name="add_mods_button">Add mods</string>
+    <string name="no_mods_selected">No add-ons selected</string>
+    <string name="extra_args_label">Extra arguments</string>
+    <string name="args_history">Argument history</string>
+    <string name="clear_args">Clear arguments</string>
+    <string name="select_game_to_launch">Select a game to launch</string>
+    <string name="launch_disabled_hint">Select a game on the left to launch.</string>
+    <string name="cd_selected">Selected</string>
+    <string name="mod_picker_title">Select add-ons</string>
+    <string name="mod_picker_title_for">Add-ons for %1$s</string>
+    <string name="mod_picker_wads" translatable="false">WADs</string>
+    <string name="mod_picker_mods" translatable="false">Mods</string>
+    <string name="mod_picker_empty">Copy add-on WADs or mods to:\n%1$s</string>
+    <string name="selected_count">%1$d selected</string>
+    <string name="only_compatible_filter">Only compatible</string>
+    <string name="only_favorites_filter">Favorites</string>
+    <string name="favorite_add">Add to favorites</string>
+    <string name="favorite_remove">Remove from favorites</string>
+    <string name="compat_compatible">Compatible</string>
+    <string name="compat_minor">Loads (may need warp)</string>
+    <string name="compat_wrong_game">Wrong game</string>
+    <string name="compat_unknown">Unknown</string>
+    <string name="clear_button">Clear</string>
+    <string name="done_button">Done</string>
+    <string name="remove_mod">Remove</string>
+    <string name="up_one_level">Up one level</string>
+    <string name="performance_header">Performance</string>
+    <string name="enable_gore_mod_prompt">Enhanced blood &amp; gore</string>
+    <string name="enable_gore_mod_summary">Adds procedural blood splashes, drips, pools and particles (Droplets by Josh771). Tune it in the in-game Options menu.</string>
+    <string name="haptics_prompt">Haptic feedback</string>
+    <string name="haptics_summary">Vibrate when you fire and when an enemy hits you.</string>
+    <string name="engine_options_header">Game settings</string>
+    <string name="engine_options_summary">Set field of view, brightness, crosshair, volumes and more from here instead of the in-game menu. Applied every launch when enabled.</string>
+    <string name="engine_opt_fov">Field of view</string>
+    <string name="engine_opt_brightness">Brightness</string>
+    <string name="engine_opt_crosshair">Crosshair</string>
+    <string name="engine_opt_autosaves">Autosave slots</string>
+    <string name="engine_opt_master_volume">Master volume</string>
+    <string name="engine_opt_music_volume">Music volume</string>
+    <string name="engine_opt_sfx_volume">Sound effects volume</string>
+    <string name="engine_opt_dynamic_lights">Dynamic lights</string>
+    <string name="engine_opt_vsync">Vertical sync</string>
+    <string name="engine_opt_fps_hud">Show FPS counter</string>
+    <string name="engine_opt_off">Off</string>
+    <string name="appearance_header">Appearance</string>
+    <string name="theme_mode_prompt">Theme</string>
+    <string name="theme_mode_dark">Dark (Doom)</string>
+    <string name="theme_mode_light">Light</string>
+    <string name="theme_mode_system">Follow system</string>
+    <string name="theme_mode_dynamic">Material You</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="profiles_header">Profiles</string>
+    <string name="no_profiles">Save the current game, add-ons and args as a reusable profile.</string>
+    <string name="save_profile_button">Save as profile</string>
+    <string name="save_profile_title">Save profile</string>
+    <string name="profile_name_label">Profile name</string>
+    <string name="save_button">Save</string>
+    <string name="delete_button">Delete</string>
+    <string name="delete_profile">Delete profile</string>
+    <string name="delete_profile_confirm">Delete the profile \"%1$s\"?</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_start">Start playing</string>
+    <string name="onboarding_welcome_title">Welcome to Nakara</string>
+    <string name="onboarding_welcome_body">A complete, free Doom-engine game powered by GZDoom. Two full campaigns are bundled and ready to play — no original game files required.</string>
+    <string name="onboarding_controls_title">Play your way</string>
+    <string name="onboarding_controls_body">On-screen touch controls work out of the box and can be customised. Connect a gamepad and bind every action in Settings.</string>
+    <string name="stats_tab">Statistics</string>
+    <string name="replay_onboarding">View intro again</string>
+    <string name="stat_total_playtime">Total playtime</string>
+    <string name="stat_launch_count">Games launched</string>
+    <string name="stat_last_played">Last played</string>
+    <string name="stat_never">Never</string>
+    <string name="stat_no_time">None yet</string>
+    <string name="stat_hours_minutes">%1$dh %2$dm</string>
+    <string name="stat_minutes">%1$dm</string>
+    <string name="backup_header">Backup &amp; restore</string>
+    <string name="backup_summary">Save your savegames and all settings to a zip file you can keep or move to another device. Restore brings them back.</string>
+    <string name="backup_button">Back up</string>
+    <string name="restore_button">Restore</string>
+    <string name="backup_done">Backup complete (%1$d saves).</string>
+    <string name="backup_failed">Backup failed: %1$s</string>
+    <string name="restore_confirm_title">Restore backup?</string>
+    <string name="restore_confirm_message">This replaces your current savegames and settings with the ones in the backup. This cannot be undone.</string>
+    <string name="restore_done">Restore complete. Some changes apply on next launch.</string>
+    <string name="restore_failed">Restore failed: %1$s</string>
+    <string name="touch_controls_tab">Touch controls</string>
+    <string name="touch_controls_summary">Tune the on-screen controls. Changes apply the next time you launch a game.</string>
+    <string name="touch_sensitivity_header">Sensitivity</string>
+    <string name="touch_behaviour_header">Behaviour</string>
+    <string name="touch_opacity">Opacity</string>
+    <string name="touch_forward_sens">Forward/back sensitivity</string>
+    <string name="touch_strafe_sens">Strafe sensitivity</string>
+    <string name="touch_pitch_sens">Look up/down sensitivity</string>
+    <string name="touch_yaw_sens">Turn sensitivity</string>
+    <string name="touch_mouse_mode">Swipe to look (mouse mode)</string>
+    <string name="touch_invert_look">Invert look</string>
+    <string name="touch_precision_shoot">Precision shooting</string>
+    <string name="touch_show_sticks">Show analog sticks</string>
+    <string name="touch_weapon_wheel">Weapon wheel</string>
+    <string name="touch_reset_defaults">Reset to defaults</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="sdcard_warning_title">Warning</string>
+    <string name="sdcard_warning_message">This will use the special location on the external SD card which can be written to by this app. Android will DELETE this area when you uninstall the app and you will LOSE YOUR SAVEGAMES and game data!</string>
+    <string name="sdcard_not_found">Cannot find an external SD card. Is the card inserted?</string>
+    <string name="error_not_directory">%1$s is not a directory</string>
+    <string name="error_not_writable">%1$s is not writable</string>
+    <string name="error_contains_spaces">%1$s must not contain any spaces</string>
+    <string name="new_folder_button">New folder</string>
+    <string name="new_folder_name_prompt">New folder name</string>
+    <string name="create_folder_failed">Failed to create \'%1$s\' folder</string>
+    <!-- gamepad fragment -->
+    <string name="enable_game_pad_toggle">Enable Game Pad</string>
+    <string name="hide_touch_controls_toggle">Hide Touch Controls</string>
+    <!-- gamepad fragment options -->
+    <string name="look_up_down_option">Look Up/Look Down</string>
+    <string name="look_left_right_option">Look Left/Look Right</string>
+    <string name="forward_back_option">Forward/Back</string>
+    <string name="strafe_option">Strafe</string>
+    <string name="attack_option">Attack</string>
+    <string name="attack_alt_option">Alt Attack (GZ)</string>
+    <string name="move_back_option">Move Backwards</string>
+    <string name="crouch_option">Crouch (GZ)</string>
+    <string name="custom_0_option">Custom A (GZ)</string>
+    <string name="custom_1_option">Custom B (GZ)</string>
+    <string name="custom_2_option">Custom C (GZ)</string>
+    <string name="custom_3_option">Custom D (GZ)</string>
+    <string name="custom_4_option">Custom E (GZ)</string>
+    <string name="custom_5_option">Custom F (GZ)</string>
+    <string name="fly_down_option">Fly Down</string>
+    <string name="fly_up_option">Fly Up</string>
+    <string name="fwd_option">Move Forward</string>
+    <string name="inv_drop_option">Drop Item</string>
+    <string name="inv_next_option">Next Item</string>
+    <string name="inv_prev_option">Prev Item</string>
+    <string name="inv_use_option">Use Item</string>
+    <string name="jump_option">Jump (GZ)</string>
+    <string name="left_option">Strafe Left</string>
+    <string name="look_left_option">Look Left</string>
+    <string name="look_right_option">Look Right</string>
+    <string name="map_down_option">Automap Down</string>
+    <string name="map_left_option">Automap Left</string>
+    <string name="map_right_option">Automap Right</string>
+    <string name="map_show_option">Show Automap</string>
+    <string name="map_up_option">Automap Up</string>
+    <string name="map_zoomin_option">Automap Zoomin</string>
+    <string name="map_zoomout_option">Automap Zoomout</string>
+    <string name="menu_back_option">Menu Back</string>
+    <string name="menu_down_option">Menu Down</string>
+    <string name="menu_left_option">Menu Left</string>
+    <string name="menu_right_option">Menu Right</string>
+    <string name="menu_select_option">Menu Select</string>
+    <string name="menu_up_option">Menu Up</string>
+    <string name="next_weapon_option">Next Weapon</string>
+    <string name="prev_weapon_option">Previous Weapon</string>
+    <string name="quick_load_option">Quick Load (GZ)</string>
+    <string name="quick_save_option">Quick Save (GZ)</string>
+    <string name="right_option">Strafe Right</string>
+    <string name="show_keys_option">Show Keys</string>
+    <string name="show_weap_option">Show Stats/Weapons</string>
+    <string name="speed_option">Run On</string>
+    <string name="strafe_on_option">Strafe On</string>
+    <string name="use_option">Use/Open</string>
+
+    <!-- options fragment -->
+    <string name="folder_name_prompt">Nakara Folder</string>
+    <string name="wad_dir_prompt">Configuration and content (WAD, DEH, etc.) directory.</string>
+    <string name="divide_resolution_by_prompt">Divide resolution by (reduce lag):</string>
+    <string name="sdcard_button_text" translatable="false">SDCARD</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="choose_button_text">Choose</string>
+
+    <!-- browse tab (idgames archive WAD downloader) -->
+    <string name="browse_search_hint">Search idgames archive…</string>
+    <string name="browse_search_button">Search</string>
+    <string name="browse_type_title" translatable="false">Title</string>
+    <string name="browse_type_filename" translatable="false">Filename</string>
+    <string name="browse_type_author" translatable="false">Author</string>
+    <string name="browse_featured_header">Featured classics</string>
+    <string name="browse_latest_header">Latest uploads</string>
+    <string name="browse_results_header">Results</string>
+    <string name="browse_no_results">No results</string>
+    <string name="browse_query_too_short">Enter at least 3 characters</string>
+    <string name="browse_download">Download</string>
+    <string name="browse_cancel_download">Cancel</string>
+    <string name="browse_installed">Installed</string>
+    <string name="browse_installed_hint">Find it under wads/%1$s in the add-on picker</string>
+    <string name="browse_unzipping">Unpacking…</string>
+    <string name="browse_error_offline">Can\'t reach the idgames archive. Check your connection.</string>
+    <string name="browse_error_api">Archive error: %1$s</string>
+    <string name="browse_error_generic">Couldn\'t load — try again</string>
+    <string name="browse_error_mirrors">Download failed on all mirrors</string>
+    <string name="browse_error_no_files">Archive contained no usable WAD/PK3 files</string>
+    <string name="browse_retry">Retry</string>
+    <string name="browse_rating" translatable="false">★ %1$.1f (%2$d)</string>
+    <string name="browse_by_author">by %1$s</string>
+    <string name="browse_powered_by">Content from the Doomworld /idgames archive</string>
+    <string name="browse_classic_header">Classic games (shareware &amp; freeware)</string>
+    <string name="browse_installed_iwad_hint">Appears in Select game on the Play tab</string>
+    <string name="browse_delete">Delete</string>
+    <string name="browse_delete_confirm_title">Delete download?</string>
+    <string name="browse_delete_confirm_msg">%1$s will be removed from storage. You can download it again later.</string>
+    <string name="browse_commercial_header">Commercial games (bring your own copy)</string>
+    <string name="browse_commercial_disclaimer">These games are still sold and are not free to download. If you own a copy (Steam, GOG, a disc…), import its .wad file here. The wad is usually inside the game\'s install folder.</string>
+    <string name="browse_import">Import WAD</string>
+    <string name="browse_import_failed">Couldn\'t import that file</string>
+    <string name="browse_imported_hint">Imported — appears in Select game on the Play tab</string>
+    <string name="browse_mode_search">Search</string>
+    <string name="browse_mode_archive">Archive</string>
+    <string name="browse_mode_installed">Installed</string>
+    <string name="browse_select_all">Select all</string>
+    <string name="browse_delete_selected">Delete (%1$d)</string>
+    <string name="browse_delete_all">Delete all</string>
+    <string name="browse_installed_empty">Nothing installed yet</string>
+    <string name="browse_bulk_delete_title">Delete %1$d WAD(s)?</string>
+    <string name="browse_bulk_delete_msg">The selected files will be removed from storage. You can download them again later.</string>
+
+    <!-- About screen -->
+    <string name="about_app_subtitle">for Android</string>
+    <string name="about_version">Version</string>
+    <string name="about_version_value" translatable="false">%1$s (%2$d)</string>
+    <string name="about_section_app">App</string>
+    <string name="about_section_developer">Developer</string>
+    <string name="about_section_credits">Credits</string>
+    <string name="about_engine">Engine</string>
+    <string name="about_engine_version" translatable="false">UZDoom 5.0.0-pre</string>
+    <string name="about_engine_credit_sub">emileb/gzdoom — a mobile GZDoom fork</string>
+    <string name="about_developer_name" translatable="false">Manuel Siuro</string>
+    <string name="about_github_profile">GitHub profile</string>
+    <string name="about_project_repo">Project repository</string>
+    <string name="browse_play_with">Play with a %1$s IWAD selected</string>
+    <string name="browse_field_base">Base</string>
+    <string name="browse_field_credits">Credits</string>
+    <string name="browse_field_buildtime">Build time</string>
+    <string name="browse_field_editors">Editors</string>
+    <string name="browse_field_bugs">Known bugs</string>
+    <string name="browse_textfile">Text file</string>
+    <string name="browse_reviews_header">Reviews</string>
+    <string name="browse_deeplink_failed">Couldn\'t open that idgames link</string>
+
+    <string-array name="double_tap_actions">
+        <item>None</item>
+        <item>Shoot</item>
+        <item>Jump</item>
+        <item>Use</item>
+    </string-array>
+    <string-array name="double_tap_actions_jk">
+        <item>None</item>
+        <item>Shoot</item>
+        <item>Jump</item>
+        <item>Use</item>
+        <item>Use Force</item>
+    </string-array>
+    <string-array name="quake2_hud_size">
+        <item>Large</item>
+        <item>Medium</item>
+        <item>Small</item>
+    </string-array>
+    <!-- Map editor -->
+    <string name="editor_failed_generate">Failed to generate WAD</string>
+    <string name="editor_wad_generated">WAD generated: %1$s</string>
+    <string name="editor_saved">Saved</string>
+    <string name="editor_open_menu">Open menu</string>
+    <string name="editor_undo">Undo</string>
+    <string name="editor_redo">Redo</string>
+    <string name="editor_test_map">Test map</string>
+    <string name="editor_more">More</string>
+    <string name="editor_generate_wad">Generate WAD</string>
+    <string name="editor_share_wad">Share WAD…</string>
+    <string name="editor_fit_to_screen">Fit to screen</string>
+    <string name="editor_tool_brush">Brush</string>
+    <string name="editor_tool_erase">Erase</string>
+    <string name="editor_tool_fill">Fill</string>
+    <string name="editor_tool_line">Line</string>
+    <string name="editor_tool_rect">Rectangle</string>
+    <string name="editor_tool_pick">Pick</string>
+    <string name="editor_tool_pan">Pan</string>
+    <string name="editor_tool_thing">Things</string>
+    <string name="editor_tool_select">Select</string>
+    <string name="editor_tool_prefabs">Prefabs</string>
+    <string name="editor_prefab_rotate_left">Rotate ↺</string>
+    <string name="editor_prefab_rotate_right">Rotate ↻</string>
+    <string name="editor_prefab_mirror">Mirror</string>
+    <string name="editor_textures_menu">Textures…</string>
+    <string name="editor_manual_things">Manual things only</string>
+    <string name="editor_manual_things_help">Place every monster and item by hand; the random scatter is turned off (the Start tile still spawns the player).</string>
+    <string name="editor_clear_things">Clear placed things</string>
+    <string name="editor_thing_count">%1$d things</string>
+    <string name="editor_thing_needs_floor">Things can only go on open floor (not walls or doors)</string>
+    <string name="editor_filled">Filled</string>
+    <string name="editor_tip">Tip %1$d×</string>
+    <string name="editor_sym_off">Sym Off</string>
+    <string name="editor_sym_lr">Sym ↔</string>
+    <string name="editor_sym_ud">Sym ↕</string>
+    <string name="editor_sym_4way">Sym ✛</string>
+    <string name="editor_map_studio">Map studio</string>
+    <string name="editor_test_iwad">Test IWAD</string>
+    <string name="editor_no_iwads">No IWADs found</string>
+    <string name="editor_grid_size_label">Grid size  %1$d×%2$d</string>
+    <string name="editor_theme_label">Theme: %1$s</string>
+    <string name="editor_maps_label">Maps (%1$d)</string>
+    <string name="editor_new_from_template">New from template…</string>
+    <string name="editor_generation_tuning">Generation tuning</string>
+    <string name="editor_replace_tile_menu">Replace tile…</string>
+    <string name="editor_clear_map_room">Clear map (Room)</string>
+    <string name="editor_fill_with_walls">Fill with walls</string>
+    <string name="editor_projects_menu">Projects…</string>
+    <string name="editor_level_name">Level name</string>
+    <string name="editor_name">Name</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_grid_size_title">Grid size</string>
+    <string name="editor_presets">Presets</string>
+    <string name="editor_custom_wh">Custom (W×H, %1$d–%2$d)</string>
+    <string name="editor_w">W</string>
+    <string name="editor_h">H</string>
+    <string name="editor_keep_drawing">Keep drawing (crop/pad)</string>
+    <string name="editor_clear">Clear</string>
+    <string name="editor_apply">Apply</string>
+    <string name="editor_theme_title">Theme</string>
+    <string name="editor_close">Close</string>
+    <string name="editor_maps_title">Maps</string>
+    <string name="editor_maps_help">Each map becomes MAP01, MAP02… in the WAD. Pick one to edit; set the test target.</string>
+    <string name="editor_dup">Dup</string>
+    <string name="editor_duplicate_map">Duplicate map</string>
+    <string name="editor_move_map_up">Move map up</string>
+    <string name="editor_move_map_down">Move map down</string>
+    <string name="editor_delete_map">Delete map</string>
+    <string name="editor_add_map">Add map</string>
+    <string name="editor_tuning_help">Relative densities. The engine also scales by map area, so bigger maps get more.</string>
+    <string name="editor_auto_populate">Auto-populate (monsters &amp; items)</string>
+    <string name="editor_density_monsters">Monsters</string>
+    <string name="editor_density_items">Items</string>
+    <string name="editor_density_ammo">Ammo</string>
+    <string name="editor_wad_format">WAD format</string>
+    <string name="editor_doom2_label">Doom II (MAP01)</string>
+    <string name="editor_doom1_label">Doom I (ExMy)</string>
+    <string name="editor_test_skill">Test skill</string>
+    <string name="editor_projects_title">Projects</string>
+    <string name="editor_save_as">Save as</string>
+    <string name="editor_saved_header">Saved</string>
+    <string name="editor_no_saved_projects">No saved projects yet.</string>
+    <string name="editor_map_count">%1$d map(s)</string>
+    <string name="editor_open">Open</string>
+    <string name="editor_delete">Delete</string>
+    <string name="editor_replace_tile_title">Replace tile</string>
+    <string name="editor_replace_every">Replace every…</string>
+    <string name="editor_replace_with">…with</string>
+    <string name="editor_replace">Replace</string>
+    <string name="editor_new_from_template_title">New from template</string>
+    <string name="editor_template_help">Adds a new map from a starter layout.</string>
+    <string name="editor_heads_up">Heads up</string>
+    <string name="editor_test_anyway">Test anyway</string>
+    <string name="editor_confirm_delete_project_title">Delete project?</string>
+    <string name="editor_confirm_delete_project_text">Delete “%1$s”? This can\'t be undone.</string>
+    <string name="editor_confirm_clear_title">Clear the current map?</string>
+    <string name="editor_confirm_clear_text">This overwrites the whole grid. You can undo it afterwards.</string>
+</resources>

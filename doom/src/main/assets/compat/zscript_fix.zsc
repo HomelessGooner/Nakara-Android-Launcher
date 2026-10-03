@@ -1,0 +1,67 @@
+
+// Stub for missing fish particle system (added for Android port).
+// The water map's BEHAVIOR ACS calls NakaraParticleFX.SpawnFishSchoolF via
+// ScriptCall, but the class was not shipped in the game's zscript. Without
+// this stub the engine aborts with "ACS call to unknown class in script
+// function NakaraParticleFX.SpawnFishSchoolF" and the level fails to load.
+// This stub makes the call a no-op: the fish particles won't render, but
+// the map loads and plays. All parameters are optional ints so the ACS
+// bridge accepts any argument count up to the declared maximum.
+// NOTE: ZScript does not support function overloading, so only a single
+// signature is provided.
+class NakaraParticleFX : Object
+{
+    static void SpawnFishSchoolF(int a = 0, int b = 0, int c = 0, int d = 0,
+                                 int e = 0, int f = 0, int g = 0, int h = 0,
+                                 int i = 0, int j = 0, int k = 0, int l = 0,
+                                 int m = 0, int n = 0, int o = 0, int p = 0,
+                                 int q = 0, int r = 0, int s = 0, int t = 0)
+    {
+    }
+
+    static void SpawnUnderwaterAmbientParticles(int a = 0, int b = 0, int c = 0,
+                                 int d = 0, int e = 0, int f = 0, int g = 0,
+                                 int h = 0, int i = 0, int j = 0, int k = 0,
+                                 int l = 0, int m = 0, int n = 0, int o = 0,
+                                 int p = 0, int q = 0, int r = 0, int s = 0,
+                                 int t = 0)
+    {
+    }
+
+    static void ClearUnderwaterAmbientParticles(int a = 0, int b = 0, int c = 0,
+                                 int d = 0, int e = 0, int f = 0, int g = 0,
+                                 int h = 0, int i = 0, int j = 0, int k = 0,
+                                 int l = 0, int m = 0, int n = 0, int o = 0,
+                                 int p = 0, int q = 0, int r = 0, int s = 0,
+                                 int t = 0)
+    {
+    }
+}
+
+// Gallery room-change handler for Android port (fixed 2026-09-30).
+// The gallery UI says "pad k to change room" and waits for the K key.
+// The G button sends K (SDL scancode 37). This handler catches K in UI
+// scope, forwards via SendNetworkEvent (clearscope, callable from UI),
+// and runs the GalleryChecks ACS script from NetworkProcess (play scope,
+// which is allowed to call ACS_NamedExecute).
+class NakaraGalleryHandler : EventHandler
+{
+    override bool InputProcess(InputEvent e)
+    {
+        // KeyScan is a DirectInput (DIK) code; DIK_K = 37.
+        if (e.Type == InputEvent.Type_KeyDown && e.KeyScan == 37)
+        {
+            SendNetworkEvent("nakara_gallery_next");
+            return true;
+        }
+        return false;
+    }
+
+    override void NetworkProcess(ConsoleEvent e)
+    {
+        if (e.Name == "nakara_gallery_next")
+        {
+            ACS_NamedExecuteWithResult("GalleryChecks", 0, 0, 0, 0);
+        }
+    }
+}
